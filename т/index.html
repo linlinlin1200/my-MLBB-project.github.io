@@ -1,0 +1,152 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLBB</title>
+    
+    <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+    <header>
+        <div class="title-container">
+        <h1 id="game-title">
+            <span>M</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span>
+            <span>L</span><span>e</span><span>g</span><span>e</span><span>n</span><span>d</span><span>s</span>
+            <span>:</span><span>B</span><span>a</span><span>n</span><span>g</span><span> </span>
+            <span>B</span><span>a</span><span>n</span><span>g</span>
+        </h1>
+        </div>
+    </header>
+        <!-- первые картинки  -->
+    <section class="content-section">
+        <div class="text-content">
+        <h2>О игре Mobile Legends</h2>
+        <p id="text" >Mobile Legends: Bang Bang (MLBB) — это динамичная многопользовательская онлайн-игра для мобильных устройств. Игроки в нее могут погрузиться в эпичные битвы 5 на 5, выбирая уникальных героев с особыми способностями. Это настоящая игра с элементами стратегии, где важно не только сражаться, но и разрабатывать тактику для победы.</p>
+        </div>
+        <div class="image-content">
+        <img id="image" src="https://how2play.ru/media/posts/356/line.jpg" alt="Герои MLBB">
+        </div>
+        
+    </section>
+    <section class="navigation-section">
+        <button id="backBtn" class="nav-btn" id="prev-btn">Назад</button>
+        <button id="changeTextBtn" class="nav-btn">Далее</button> 
+    </section>
+    <!-- карта -->
+    <section class="map-section">
+        <img src="https://esports.ru/wp-content/uploads/2024/10/image-16.jpg" alt="Map of Mobile Legends" class="game-map">
+    </section>
+        <!-- роли-->
+    <section class="roles-section">
+        <div class="role-btn" id="assassin">
+        <span>Убийца</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_KFznAA20qsGAeeZ7HjQinkZQ1s8oph_Ymw&s" class="role-img" id="img-assassin">
+        </div>
+        
+        <div class="role-btn" id="mage">
+        <span>Маг</span>
+        <img src="https://img.freepik.com/premium-vector/role-mobile-legends-bang-bang_890255-46.jpg"  class="role-img" id="img-mage">
+        </div>
+        <div class="role-btn" id="marksman">
+        <span>Стрелок</span>
+        <img src="https://img.freepik.com/premium-vector/role-mobile-legends-bang-bang_890255-44.jpg" class="role-img" id="img-marksman">
+        </div>
+        <div class="role-btn" id="fighter">
+        <span>Боец</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJW9ariSN-A0F8ZSWzFPXrWeXyET8yc66DySpavga2uCrme6dkHfVFs1vcAPcVW69l3vI&usqp=CAU" class="role-img" id="img-fighter">
+        </div>
+        <div class="role-btn" id="support">
+        <span>Поддержка</span>
+        <img src="https://img.freepik.com/premium-vector/role-mobile-legends-bang-bang_890255-47.jpg" class="role-img" id="img-support">
+        </div>
+    </section>
+        <!-- доп инфа -->
+    <section class="tournaments-section">
+        <h2>Турниры и мироприятия</h2>
+        <p>Следите за самыми крупными турнирами и событиями, которые происходят в игре!!!!</p>
+        <div class="tournament-cards">
+        <div class="tournament-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBSo2dr5t-gtYsAPmVN8m2TiIkbOdOc-fqQ&s">
+            <h3>Международный турнир</h3>
+            <p>Один из крупнейших турниров года. Смотрите, как лучшие команды соревнуются за главный приз!</p>
+        </div>
+        <div class="tournament-card">
+            <img src="https://img.goodfon.ru/wallpaper/big/7/c5/mlbb-mobile-legends-mobile-legends-bang-bang-skin-art-moskov.webp">
+            <h3>Летнее событие</h3>
+            <p>Летнее событие с новыми режимами, скинами и огромными призами! Не пропустите.</p>
+        </div>
+        <div class="tournament-card">
+            <img src="https://cdnr.escharts.com/uploads/public/675/eee/3f6/675eee3f6bdb1219012347.jpg?width=435&height=244&quality=70&extension=png" >
+            <h3>Сезонный чемпионат</h3>
+            <p>Каждый сезон проходят новые чемпионаты, в которых игроки борются за звание лучшего.</p>
+        </div>
+        </div>
+        </section>
+        <!-- Всплывающее окно -->
+    <div class="modal" id="advertisement-modal">
+        <div class="modal-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <img src="https://www.meme-arsenal.com/memes/986a136a9ccef793e1ad94d66984c911.jpg" class="modal-image">
+        <p class="modal-text">Здесь могла бы быть ваша реклама!</p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=vZf56fvUihC9XLHt" class="fake-close-btn">Закрыть</a>
+        </div>
+    </div>
+        <!-- доп инфа 2 -->
+    <section class="participation-section">
+        <div class="participation-block">
+        <div class="participation-text">
+            <h3>Скачай игру и зарегистрируйся</h3>
+            <p>Чтобы стать частью MLBB, скачайте игру на своем мобильном устройстве и зарегистрируйтесь. Это быстрый и простой процесс, который откроет вам доступ ко всем возможностям игры!</p>
+        </div>
+        <div class="participation-image">
+            <img src="https://preview.redd.it/otgbijdjoxv81.jpg?width=640&crop=smart&auto=webp&s=ab333a5ba32ba7e04b741f1e124b862517447016" >
+        </div>
+        </div>
+        
+        <div class="participation-block reverse">
+        <div class="participation-image">
+            <img src="https://tatarstan.ru/file/news/35_n2113170_big.jpg" >
+        </div>
+        <div class="participation-text">
+            <h3>Собери команду и обдумайте план</h3>
+            <p>Соберите свою команду и тщательно продумайте стратегии для каждого боя. Общайтесь с командой, обсуждайте тактику и будьте готовы к победе!</p>
+        </div>
+        </div>
+
+        <div class="participation-block">
+        <div class="participation-text">
+            <h3>Присоединяйтесь к MLBB и побеждайте</h3>
+            <p>Присоединяйтесь к соревнованиям и турнирам MLBB. Доказать свою силу и стать лучшими в игре — это не только радость, но и шанс получить крутые призы!</p>
+        </div>
+        <div class="participation-image">
+            <img src="https://s-cdn.sportbox.ru/images/styles/1200-auto/fp_fotos/23/61/fb1c7fc617742e21b7463d1bb3bfa36d5cb49c23e6cc1368447276.jpg">
+        </div>
+        </div>
+    </section>
+        <footer>
+                <div class="footer-container">
+                    <div class="download-section">
+                    <a href="https://www.mobilelegends.com" target="_blank" class="official-site">Официальный сайт MLBB</a>
+                    <div class="download-btn-container">
+                        <a href="https://play.google.com/store/apps/details?id=com.mobile.legends" target="_blank" class="download-btn">Скачать сейчас</a>
+                    </div>
+                    </div>
+        
+            <div class="contact-section">
+                <p>Контакт автора: <a href="https://t.me/linlinlin1200" target="_blank">Telegram</a></p>
+            </div>
+        
+            <div class="custom-message">
+                <p>Moonton , если вы это увидите ,то надеюсь вы мне заплатите </p>
+            </div>
+            </div>
+        </footer>
+    
+
+    
+
+    <script src="./script.js"></script>
+    </body>
+    </html>
